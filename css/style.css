@@ -1,0 +1,471 @@
+* {
+    
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 23px;
+  font-family: Verdana, sans-serif;
+  color: #666666;
+
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.site-header {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-header .container {
+  min-height: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+
+.main-nav {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+  margin-right: 60px;
+}
+
+.site-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.site-menu a {
+  display: block;
+  margin-right: 80px;
+
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+/*
+
+.site-menu a:hover {
+  color: white;
+}
+
+.site-menu a:active {
+  color: black;
+}
+*/
+
+.contacts-menu {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts-menu li {
+  margin-left: 20px;
+}
+/*
+
+.contacts-menu a:hover {
+  opacity: 0.8;
+}
+
+.contacts-menu a:active {
+  opacity: 0.4;
+}
+*/
+
+.contacts-menu .icon {
+  display: block;
+  width: 50px;
+  height: 32px;
+
+}
+
+.contacts-menu .icon-phone {
+  background-image: ;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.about-us {
+  width: 490px;
+  padding-left: 200px;
+    
+}
+
+.about-us h1 {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+
+  font-size: 60px;
+  line-height: 0px;
+  font-family: "Courier New", monospace;
+  color: black;
+    
+    
+}
+
+.about-us p {
+    margin: 0;
+  margin-bottom: 60px;
+  padding-left: 1px;
+
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.btn {
+  position: relative;
+
+  display: inline-block;
+  width: 190px;
+  padding: 0 25px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  color: #CD853F;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+}
+/*
+
+.btn::after {
+  content: "";
+
+  position: absolute;
+  right: 20px;
+  top: 17px;
+
+  width: 19px;
+  height: 16px;
+
+  background-image: url(../img/right-arrow-dark.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+*/
+
+.btn-yellow {
+  background-color: #FFEFD5;
+  text-align: center
+}
+/*
+
+.btn-yellow:hover {
+  background-color: white;
+}
+
+.btn-yellow:active {
+  background-color: #c1a300;
+}
+*/
+
+.btn-grey {
+  width: 215px;
+
+  color: white;
+
+  background-color: #000000;
+
+}
+/*
+
+.btn-grey::after {
+  background-image: url(../img/right-arrow-white.png);
+}
+
+.btn-grey:hover {
+  background-color: #676767;
+}
+
+.btn-grey:active {
+  background-color: #ccc;
+}
+*/
+
+.features {
+  padding: 20px 50;
+
+  background-color: #FFEFD5;
+
+  color: #000000;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin: 0
+  padding: 0;
+
+  list-style: none;
+}
+
+.features-list li {
+  position: relative;
+
+  width: 100px;
+  margin-right: 10px;
+  padding-top: 35px;
+
+  font-size: 22px;
+  line-height: 25px;
+  color: #CD853F;
+}
+/*
+
+.features-list li::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 60px;
+  height: 68px;
+}
+
+.feature-made-in-russia::after {
+  background-image: url(../img/advantage-icon-1.png);
+}
+
+.feature-food::after {
+  background-image: url(../img/advantage-icon-2.png);
+}
+
+.feature-pilots::after {
+  background-image: url(../img/advantage-icon-3.png);
+}
+
+.feature-moon-rover::after {
+  background-image: url(../img/advantage-icon-4.png);
+}
+*/
+
+.columns-container {
+  display: flex;
+}
+
+.columns-container .left-column {
+  width: 488px;
+  margin-right: 67px;
+}
+
+.columns-container .right-column {
+  width: 350px;
+}
+
+.moon-vacation {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.moon-vacation .lead {
+  margin-top: 0;
+  margin-bottom: 24px;
+
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 32px;
+  font-family: "Courier New", monospace;
+}
+
+.recommendations {
+  padding-top: 19px;
+  padding-bottom: 25px;
+}
+
+.recommendations h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 29px;
+  font-family: "Courier New", monospace;
+}
+
+.recommendations-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+
+  list-style: none;
+}
+
+.recommendations-list li {
+  position: relative;
+
+  margin-bottom: 35px;
+}
+/*
+
+.recommendations-list li::before {
+  content: "";
+
+  position: absolute;
+  left: -25px;
+  top: 5px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+  background-color: #000000;
+}
+*/
+
+.site-footer {
+  padding-top: 70px;
+  padding-bottom: 80px;
+/*
+
+  color: #ffffff;
+
+  background-color: #131313;
+*/
+}
+
+
+.footer-columns-container {
+  display: flex;
+}
+
+.footer-columns-container .left-column {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-right: 100px;
+}
+
+.footer-columns-container .right-column {
+  width: 720px;
+  padding-top: 35px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.logo-container .logo {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.logo-container p {
+/*  font-size: 14px;*/
+}
+
+.copyrights {
+  margin-top: auto;
+/*
+
+  color: #555555;
+*/
+}
+
+.footer-menu {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-menu > li {
+  width: 180px;
+  margin-right: 60px;
+}
+
+.footer-submenu-title {
+  display: block;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+
+/*
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-bottom: 1px solid #555555;
+*/
+}
+
+.footer-submenu {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-submenu > li {
+  margin-bottom: 20px;
+}
+
+.footer-submenu a {
+  text-decoration: none;
+/*  color: #888888;*/
+}
+/*
+
+    .footer-nav a:hover {
+      color: white;
+    }
+
+    .footer-nav a:active {
+      color: #ccc;
+    }
+*/
